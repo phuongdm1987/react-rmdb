@@ -25,7 +25,7 @@ const Header = () => {
                             <div>
                                 <span>Logged in as: {user.username}</span>
                                 <span>|</span>
-                                <a onClick={handleLogout}>Logout</a>
+                                <button onClick={handleLogout}>Logout</button>
                             </div>
                         )
                         : (

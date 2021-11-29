@@ -21,6 +21,9 @@ export const Content = styled.div`
   a {
     color: var(--white);
     text-decoration: none;
+  }
+  
+  button {
     cursor: pointer;
   }
 `;
