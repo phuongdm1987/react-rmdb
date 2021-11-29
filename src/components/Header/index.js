@@ -25,7 +25,7 @@ const Header = () => {
                             <div>
                                 <span>Logged in as: {user.username}</span>
                                 <span>|</span>
-                                <a href='#' onClick={handleLogout}>Logout</a>
+                                <a onClick={handleLogout}>Logout</a>
                             </div>
                         )
                         : (

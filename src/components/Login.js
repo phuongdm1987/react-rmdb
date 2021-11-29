@@ -10,7 +10,7 @@ const Login = () => {
     const [password, setPassword] = useState('');
     const [error, setError] = useState(false);
 
-    const [setUser] = useContext(Context);
+    const [_user, setUser] = useContext(Context);
     const navigate = useNavigate();
 
     const handleSubmit = async () => {
